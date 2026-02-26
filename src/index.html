@@ -5,13 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Gatitos — Página bonita</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">Gatitos</h1>
+        <nav class="nav">
+          <a href="#">Inicio</a>
+          <a href="#galeria">Galería</a>
+          <a href="#sobre">Sobre</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h2>Bienvenido al rincón de los gatitos</h2>
+            <p>Fotos adorables, datos curiosos y todo lo que necesitas para sonreír hoy.</p>
+            <a class="btn" href="#galeria">Ver galería</a>
+          </div>
+          <div class="hero-image">
+            <img src="https://source.unsplash.com/800x600/?kitten&sig=1" alt="Gatito curioso" />
+          </div>
+        </div>
+      </section>
+
+      <section id="galeria" class="gallery container">
+        <h3>Galería de gatitos</h3>
+        <div class="grid">
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=2" alt="Gatito 1"><figcaption>Siesta de medio día</figcaption></figure>
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=3" alt="Gatito 2"><figcaption>Mirada traviesa</figcaption></figure>
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=4" alt="Gatito 3"><figcaption>Explorador curioso</figcaption></figure>
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=5" alt="Gatito 4"><figcaption>Amigo peludo</figcaption></figure>
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=6" alt="Gatito 5"><figcaption>Siesta en el sofá</figcaption></figure>
+          <figure class="card"><img src="https://source.unsplash.com/600x400/?kitten&sig=7" alt="Gatito 6"><figcaption>Pequeño curioso</figcaption></figure>
+        </div>
+      </section>
+
+      <section id="sobre" class="about container">
+        <h3>Sobre los gatitos</h3>
+        <p>Los gatitos son pequeñas bolas de energía y ternura. Crecen rápido, juegan mucho y pueden enseñarnos a disfrutar de las pequeñas cosas: una caja, un rayo de sol, o una siesta improvisada.</p>
+        <p>En esta página encontrarás imágenes encantadoras y pequeños datos para alegrar tu día.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Gatitos. Fotos de Unsplash.</p>
+      </div>
+    </footer>
+  </body>
+</html>
 </body>
 
 </html>
